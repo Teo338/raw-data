@@ -1,0 +1,191 @@
+{
+  "name": "8ball",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "ZWPee",
+  "actions": [
+    {
+      "storage": "1",
+      "varName": "Zahl",
+      "min": "3",
+      "max": "6",
+      "name": "Generate Random Number"
+    },
+    {
+      "storage": "1",
+      "varName": "jliufOIPFp0oefe",
+      "comparison": "1",
+      "value": "204975738965",
+      "iftrue": "1",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "${tempVars(\"Zahl\")}",
+      "name": "Check Variable"
+    },
+    {
+      "call": "7",
+      "name": "Jump to Action"
+    },
+    {
+      "call": "11",
+      "name": "Jump to Action"
+    },
+    {
+      "call": "15",
+      "name": "Jump to Action"
+    },
+    {
+      "call": "19",
+      "name": "Jump to Action"
+    },
+    {
+      "title": "I say...",
+      "author": "",
+      "color": "${serverVars(\"farbe\")}",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "Ich sage1",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "Ich sage1",
+      "message": "Yes. Because all of my family say yes (except for my sister)",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "Ich sage1",
+      "channel": "0",
+      "varName2": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "title": "I say...",
+      "author": "",
+      "color": "${serverVars(\"farbe\")}",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "Ich sage2",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "Ich sage2",
+      "message": "No. Otherwise I'll jump out of the window.",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "Ich sage2",
+      "channel": "0",
+      "varName2": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "title": "I say...",
+      "author": "",
+      "color": "${serverVars(\"farbe\")}",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "Ich sage3",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "Ich sage3",
+      "message": "Yes. I can't lie...",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "Ich sage3",
+      "channel": "0",
+      "varName2": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "title": "I say...",
+      "author": "",
+      "color": "${serverVars(\"farbe\")}",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "Ich sage4",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "Ich sage4",
+      "message": "No. It is true, I say no!",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "Ich sage4",
+      "channel": "0",
+      "varName2": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    }
+  ],
+  "_timeRestriction": 5
+}
